@@ -1,4 +1,4 @@
-#Load COS7_Lifetime dataset
+#Load COS7_Lifetime dataset (COS7_Lifetime.csv file)
 data <- read.csv(file.choose(), header = T)
 data
 #Plot violin splot with jitter and swap the positions of the x-label 
