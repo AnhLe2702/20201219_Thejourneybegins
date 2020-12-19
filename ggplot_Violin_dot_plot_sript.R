@@ -1,13 +1,13 @@
 #Load COS7_Lifetime dataset
 data <- read.csv(file.choose(), header = T)
 data
-#Plot violin splot with jitter and swap the positions of the x-lebel and 
+#Plot violin splot with jitter and swap the positions of the x-label 
 ggplot(data, aes(Conditions, Lifetime.s, col=as.factor(Replicate))) +
   geom_violin(col="orange") +
   scale_x_discrete(limits=c("Bef", "Aft")) +
   geom_point(position = position_jitter(0.2)) +
   scale_color_discrete(name="Replicate")
-#assign plot to myplot
+#assign plot to myplot2
 myplot2 <- ggplot(data, aes(Conditions, Lifetime.s, col=as.factor(Replicate))) +
   geom_violin(col="orange") +
   scale_x_discrete(limits=c("Bef", "Aft")) +
