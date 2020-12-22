@@ -1,0 +1,5 @@
+#Creating descriptive statistics 
+cleandata <- data %>%
+  group_by (Topic) %>%
+  summarize (mean_time = mean(Average_length.days), sd_time = sd(Average_length.days), count = n(), se_time = (sd_time/(sqrt(count))))
+View(cleandata)
