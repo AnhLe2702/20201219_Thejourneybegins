@@ -1,4 +1,3 @@
-#The file describes the time for when submission to accepted from 4 different topics: SARS-COV-2, Metastasis, Chromosome, Crystal structure in the journal Nature (2020)
 Average_length.days,Topic
 81,SARS-COV-2
 132,SARS-COV-2
@@ -164,3 +163,4 @@ Average_length.days,Topic
 562,Crystal_structure
 117,Crystal_structure
 135,Crystal_structure
+#The file describes the time for when submission to accepted from 4 different topics: SARS-COV-2, Metastasis, Chromosome, Crystal structure in the journal Nature (2020)
